@@ -10,7 +10,7 @@ Recommended Youtube channel for package installations - https://www.youtube.com/
 
 # To modify 
 
-clone the repo and run the following command in the current repo folder |
+clone the repo and run the following command in the current repo folder 
 
 $ npm start 
 
