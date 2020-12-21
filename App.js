@@ -45,23 +45,20 @@ export default function App() {
     
     <TouchableWithoutFeedback onPress = {() => {
       Keyboard.dismiss();
-      console.log("Keyboard Dismissed");
     }}>
     <View style={styles.container} >
-      <View>
       <Header />
       <View style= {styles.content}>
           <AddTodo submitHandler = {submitHandler} />
         <View style={ styles.list }>
           <FlatList 
             data={Todos}
-            renderItem={ ({item} ) => (
-              <TodoItem item = {item} pressHandler= { pressHandler} />
+            renderItem={ ({item}) => (
+            <TodoItem item = {item} pressHandler = {pressHandler} />
             )}
           />
         </View>
       </View> 
-      </View>
       <StatusBar barStyle="light-content" />
     </View>
     </TouchableWithoutFeedback>
@@ -72,14 +69,15 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex:1,
     backgroundColor:'#fff',
   },
   content : {
     padding: 40,
-    
+    flex:1,
   },
   list : {
     margin: 20,
+    flex:1,
   },
 });
