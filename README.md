@@ -3,6 +3,7 @@ A simple Todo app built with react native which helps you to understand the use 
 
 ## Dependencies
 >nodejs --version 12
+
 >npm i -g expo-cli
 
 ## To run project
