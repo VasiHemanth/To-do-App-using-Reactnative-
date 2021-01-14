@@ -1,7 +1,7 @@
 # To-do-App-using-Reactnative-
 
-<div style="width:50%;">
-<img src=Todoapp.gif />
+<div >
+<img src=Todoapp.gif style="height:50% , width:50%;" />
 </div>
 
 A simple Todo app built with react native which helps you to understand the use of basic components and styling in react native. 
