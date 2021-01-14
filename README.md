@@ -1,6 +1,6 @@
 # To-do-App-using-Reactnative-
 
-<div>
+<div style="width:50%;">
 <img src=Todoapp.gif />
 </div>
 
