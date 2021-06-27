@@ -13,5 +13,5 @@ A simple Todo app built with react native which helps you to understand the use 
 
 ## To run project
 ```bash
-  npm start
+  npm start or expo start
 ```
