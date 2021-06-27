@@ -1,4 +1,4 @@
-# To-do-App-using-Reactnative-
+# To-do-App-in-Reactnative
 
 <p align="center">
   <img src=Todoapp.gif width="30%" height="30%" />
